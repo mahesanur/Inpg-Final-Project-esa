@@ -1,0 +1,198 @@
+a{text-decoration:none;}
+nav.vertical ul li{	display:block;}
+nav.horizontal ul li{	display: inline-block;}
+
+
+body{
+	font-family: "Century Gothic",Arial, Helvetica, sans-serif;
+	background-color: rgb(248, 248, 248);
+}
+
+.header{
+	position: relative;
+	bottom: 20%;
+}
+
+.wrap{
+	width:80%;
+	margin:0 auto;
+}
+
+.logo img{max-width:100%;}
+
+.logo {
+	float:left;
+	padding-top: 4px;
+	width: 100px;
+}
+
+.logo h5{
+	padding-left: 5px;
+}
+/*--menu--*/
+.menu{
+	float:right;
+	padding-top: 6px;
+}
+.menu ul li {
+	display: inline-block;
+}
+.menu ul li a {
+	color: rgb(0, 0, 0);
+	display: block;
+	padding: 40px 15px;
+	letter-spacing: 1px;
+	font-size: 1.1em;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	margin: 13px 10px;
+	text-decoration: none;
+}
+.menu li.active> a, .menu li> a:hover {
+	color:rgb(211, 211, 211);
+	background:#6d3202;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+	text-decoration: none;
+	opacity: 10px;
+}
+
+
+.textBanner{
+    position: absolute;
+    top: 45%;
+    left: 45%;
+}
+
+.textBanner h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(0, 3, 8);
+    font-size: 50px;
+}
+
+.banner img{
+    padding-top: 50px;
+    width: 100%;
+    height: auto
+}
+
+.container{
+    padding-top: 122px;
+    padding-bottom: 50px;
+}
+
+/* Footer */
+
+.footer{
+	margin-top: 120px;
+	background-color: black;
+	height: 450px;
+}
+
+#ctFooter h2{
+	color: #FFF;
+	padding-top: 15px;
+}
+
+#ctFooter{
+	color: #FFF;
+	padding-top: 15px;
+}
+
+.social-icons{
+	padding-top: 60px;
+	text-align: center;
+}
+
+.social-icons ul li:first-child, ol li:first-child {
+	margin-top: 0px;
+	
+}
+.social-icons li {
+	background: none;
+	display: inline-block;
+}
+li.facebook a span {
+	height: 30px;
+	width: 30px;
+	display: block;
+	background: url(../images/img-sprite.png) no-repeat -283px -14px;
+}
+li.facebook a span:hover {
+	background: url(../images/img-sprite.png) no-repeat -283px -46px;
+}
+li.google a span {
+	height: 30px;
+	width: 30px;
+	display: block;
+	background: url(../images/img-sprite.png) no-repeat -316px -14px;
+}
+li.google a span:hover {
+	background: url(../images/img-sprite.png) no-repeat -316px -46px;
+}
+li.twitter a span {
+	height: 30px;
+	width: 30px;
+	display: block;
+	background: url(../images/img-sprite.png) no-repeat -349px -14px;
+}
+li.twitter a span:hover {
+	background: url(../images/img-sprite.png) no-repeat -349px -46px;
+}
+li.linkedin a span {
+	height: 30px;
+	width: 30px;
+	display: block;
+	background: url(../images/img-sprite.png) no-repeat -382px -14px;
+}
+li.linkedin a span:hover {
+	background: url(../images/img-sprite.png) no-repeat -382px -46px;
+}
+li.youtube a span {
+	height: 30px;
+	width: 30px;
+	display: block;
+	background: url(../images/img-sprite.png) no-repeat -416px -14px;
+}
+li.youtube a span:hover {
+	background: url(../images/img-sprite.png) no-repeat -416px -46px;
+}
+li.bloger a span {
+	height: 30px;
+	width: 30px;
+	display: block;
+	background: url(../images/img-sprite.png) no-repeat -448px -14px;
+}
+li.bloger a span:hover {
+	background: url(../images/img-sprite.png) no-repeat -448px -46px;
+}
+li.rss a span {
+	height: 30px;
+	width: 30px;
+	display: block;
+	background: url(../images/img-sprite.png) no-repeat -482px -14px;
+}
+li.rss a span:hover {
+	background: url(../images/img-sprite.png) no-repeat -482px -46px;
+}
+li.dribble a span {
+	height: 30px;
+	width: 30px;
+	display: block;
+	background: url(../images/img-sprite.png) no-repeat -515px -14px;
+}
+li.dribble a span:hover {
+	background: url(../images/img-sprite.png) no-repeat -515px -46px;
+}
+.social-icons h4{
+	color: #FFF;
+	margin-bottom:15px;
+	font-size: 1.4em;
+	line-height: 1.2;
+	font-weight: normal;
+	margin-top: 0px;
+	letter-spacing: -1px;
+	padding-left: 50px;
+}

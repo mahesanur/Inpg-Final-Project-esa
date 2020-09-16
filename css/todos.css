@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d3d2d2;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    background-color: #f8f8f8;
+    width: 100%;
+    height: 100%;
+}
+
+.container h1{
+    margin-top: -110px;
+    font-size: 75px;
+    
+}
+
+button:hover{ 
+    color: aliceblue;
+    cursor: pointer;
+    background-color: #175df3;
+}
+
+.form{
+    display: flexbox;
+    top: -25px;
+    position: relative;
+    width: 750px;
+    height: 475px;
+    margin-top: 10%;
+    background-color: #d3d2d2;
+    border-radius: 5px;
+}
+
+
+ul{
+    width: auto;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    list-style-type: none;
+    
+}
+
+.todo-input {
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    margin: 10px;
+    margin-right: 5px;
+    font-size: 1rem;
+    background-color: #f5ecec;
+    width: 250px;
+    
+}
+
+.add-todo{
+    padding: 10px;
+    width: 50px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #f5ecec;
+    font-size: auto;
+    font-family: cursive;
+}
+
+.todo-items {
+    min-width: 350px;
+    font-size: 35px;
+  }
+  
+  .item {
+    background-color: rgb(230, 223, 216);
+    padding: 10px;
+    font-size: 1.1rem;
+  }
+  
+  .item:first-child {
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+  }
+  
+  .item:last-child {
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+  }
+  
+  .checkbox {
+    margin-right: 10px;
+  }
+  
+  .delete-button {
+      color: wheat;
+    float: right;
+    background-color: #ff0000;
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    padding: 2px 5px;
+    margin-left: 10px;
+    font-size: 1rem;
+    font-weight: 550;
+  }
+  
+  .checked { 
+    text-decoration: line-through;
+  }
+  
+button#back a{
+    text-decoration: none;
+}
+
+#back{
+    color: black;
+    background-color:#f5ecec;
+    position: absolute;
+    top: 35%;
+    left: 73%;
+    width: 50px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    font: 550;
+    border-color: black;
+
+}
+
+#back:hover{
+    background-color: #175df3;
+    color: #f8f8f8;
+}
